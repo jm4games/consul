@@ -354,6 +354,11 @@ Pod annotations can be used to configure the injection behavior.
 - `consul.hashicorp.com/service-metrics-port` - Set the port where the Connect service exposes metrics.
 - `consul.hashicorp.com/service-metrics-path` - Set the path where the Connect service exposes metrics.
 
+- `consul.hashicorp.com/transparent-proxy-exclude-inbound-ports` - A comma-separated list of inbound ports to exclude from traffic redirection.
+- `consul.hashicorp.com/transparent-proxy-exclude-outbound-ports` - A comma-separated list of outbound ports to exclude from traffic redirection.
+- `consul.hashicorp.com/transparent-proxy-exclude-outbound-cidrs - A comma-separated list of outbound CIDRs to exclude from traffic redirection.
+- `consul.hashicorp.com/transparent-proxy-exclude-uids` - A comma-separated list of additional user IDs to exclude from traffic redirection.
+
 ## Installation and Configuration
 
 The Connect sidecar proxy is injected via a
