@@ -1,5 +1,9 @@
 ## UNRELEASED
 
+BUG FIXES:
+
+* Fixing SOA record to return proper domain when alt domain in use. [[GH-10431]](https://github.com/hashicorp/consul/pull/10431)
+
 ## 1.10.2 (August 27, 2021)
 
 KNOWN ISSUES:
